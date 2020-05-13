@@ -85,7 +85,14 @@ Request:PUT
         "status": "In Progress"
     }
 
+Swagger Doc:
+http://127.0.0.1:8000/#/
 
+For swagger error:
+1. In settings.py,add REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
+2. Go to below file
+venv\Lib\site-packages\rest_framework_swagger\templates\rest_framework_swagger\index.html
+change line 2 as {% load static %}
 
 
 
