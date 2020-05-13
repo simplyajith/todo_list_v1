@@ -27,12 +27,18 @@ Install the modules in requirements.txt.
 
 Run server
 
-`cd todo_`
+```cd todo_
 
-`python manage.py runserver`
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py loaddata status.json
+
+python manage.py runserver```
 
 
-**Get Requests:**
+``**Get Requests:**``
 
 To Lists all the tasks
  
