@@ -1,0 +1,23 @@
+[
+  {
+    "model": "todo_app.TodoStatus",
+    "pk": 1,
+    "fields": {
+      "status": "New"
+    }
+  },
+  {
+    "model": "todo_app.TodoStatus",
+    "pk": 2,
+    "fields": {
+      "status": "In progress"
+    }
+  },
+  {
+    "model": "todo_app.TodoStatus",
+    "pk": 3,
+    "fields": {
+      "status": "Completed"
+    }
+  }
+]
