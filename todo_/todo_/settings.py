@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'todo_app',
     'django_filters',
+    'rest_framework_swagger',
     
 ]
 
@@ -124,3 +125,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # superuser -admin/asdf
+REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
